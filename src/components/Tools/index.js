@@ -1,6 +1,7 @@
 import {
   EditorButton,
   PrintButton,
+  PaperSizeButton,
   DownloadButton,
   SaveToCloudButtons,
   LocalStorageToggle,
@@ -13,6 +14,7 @@ export {
   EditorButton,
   FontSelector,
   PrintButton,
+  PaperSizeButton,
   VisibilityChanger,
   OrderChanger,
   DownloadButton,

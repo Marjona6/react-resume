@@ -1,50 +1,50 @@
-export const TOGGLE_TOOLBAR = 'TOGGLE_TOOLBAR';
+export const TOGGLE_TOOLBAR = "TOGGLE_TOOLBAR";
 export const toggleToolbar = () => ({
-  type: TOGGLE_TOOLBAR,
+  type: TOGGLE_TOOLBAR
 });
 
-export const TOGGLE_EDITOR = 'TOGGLE_EDITOR';
+export const TOGGLE_EDITOR = "TOGGLE_EDITOR";
 export const toggleEditor = () => ({
-  type: TOGGLE_EDITOR,
+  type: TOGGLE_EDITOR
 });
 
-export const NEW_RESUME = 'NEW_RESUME';
+export const NEW_RESUME = "NEW_RESUME";
 export const newResume = () => ({
-  type: NEW_RESUME,
+  type: NEW_RESUME
 });
 
-export const CHANGE_FONT = 'CHANGE_FONT';
+export const CHANGE_FONT = "CHANGE_FONT";
 export const changeFont = font => ({
   type: CHANGE_FONT,
-  font,
+  font
 });
 
-export const TOGGLE_SHOW_ITEM = 'TOGGLE_SHOW_ITEM';
+export const TOGGLE_SHOW_ITEM = "TOGGLE_SHOW_ITEM";
 export const toggleShowItem = item => ({
   type: TOGGLE_SHOW_ITEM,
-  item,
+  item
 });
 
-export const CHANGE_RESUME_ORDER = 'CHANGE_RESUME_ORDER';
+export const CHANGE_RESUME_ORDER = "CHANGE_RESUME_ORDER";
 export const changeResumeOrder = order => ({
   type: CHANGE_RESUME_ORDER,
-  order,
+  order
 });
 
-export const UPDATE_RESUME = 'UPDATE_RESIME';
+export const UPDATE_RESUME = "UPDATE_RESUME";
 export const updateResume = (resume, autoSave) => ({
   type: UPDATE_RESUME,
   resume,
-  autoSave,
+  autoSave
 });
 
-export const UPDATE_EDITOR_STATUS = 'UPDATE_RESUME_STAUS';
+export const UPDATE_EDITOR_STATUS = "UPDATE_RESUME_STATUS";
 export const updateResumeEditorStatus = status => ({
   type: UPDATE_EDITOR_STATUS,
-  status,
+  status
 });
 
-export const TOGGLE_AUTO_SAVE = 'TOGGLE_AUTO_SAVE';
+export const TOGGLE_AUTO_SAVE = "TOGGLE_AUTO_SAVE";
 export const toggleAutoSave = () => ({
-  type: TOGGLE_AUTO_SAVE,
+  type: TOGGLE_AUTO_SAVE
 });

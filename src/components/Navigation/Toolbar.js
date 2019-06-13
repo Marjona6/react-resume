@@ -6,6 +6,7 @@ import { SidebarCloseButton, ToolbarHeader } from '.';
 import {
   EditorButton,
   PrintButton,
+  PaperSizeButton,
   VisibilityChanger,
   FontSelector,
   OrderChanger,
@@ -40,6 +41,7 @@ const Toolbar = ({
       <VisibilityChanger />
       <OrderChanger />
       <PrintButton />
+      <PaperSizeButton />
       <DownloadButton resume={resume} />
       <LocalStorageToggle
         dispatch={dispatch}
