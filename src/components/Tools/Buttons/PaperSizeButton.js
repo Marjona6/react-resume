@@ -11,7 +11,7 @@ const PaperSizeButton = () => (
       content="US Letter / A4"
       size="large"
       fluid
-      onClick={() => window.print()}
+      onClick={() => alert('This should change paper size, but it will not do so yet!')}
       style={{
         display: "block",
         backgroundColor: "white",

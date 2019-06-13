@@ -74,6 +74,23 @@ export const CERTIFICATION = 4;
 
 export const defaultResumeOrder = [EDUCATION, TECH_SKILLS, PROJECTS, EXPERIENCE, CERTIFICATION];
 
+export const LETTER = {
+  name: 'US letter',
+  maxWidth: '8.5in !important',
+  minWidth: '8.5in !important',
+  maxHeight: '11in !important',
+  minHeight: '11in !important'
+}
+export const A4 = {
+  name: 'A4',
+  maxWidth: '8.27in !important',
+  minWidth: '8.27in !important',
+  maxHeight: '11.69in !important',
+  minHeight: '11.69in !important'
+}
+
+export const defaultPaperSize = LETTER
+
 export const STORED_RESUME_KEY = 'rr-ls-resume-key';
 
 export const saveResume = (resume) => {
